@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Sidebar menu responsive</title>
+</head>
+
+<body id="body-pd" class="body-pd">
+    <div class="l-navbar show" id="nav-bar">
+        <section class="top-nav-section d-none d-sm-block d-xs-block">
+            <div class="top-nav-logo">
+                <a class="nav-bar__logo" href="#">
+                    <img src="assets/img/latamex-logo.png" alt="" width="190" height="70"
+                        class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <div class="profile">
+                <a class="top-nav-icon" href="#">
+                    <img src="assets/img/personal-pic.png" alt="" width="30" height="30"
+                        class="d-inline-block align-text-top">
+                </a>
+                <p class="mail">user@email.com</p>
+            </div>
+        </section>
+
+        <section class="top-nav-section-min d-block d-sm-none">
+            <div class="top-nav-logo-min">
+                <a class="nav-bar__logo" href="#">
+                    <img src="assets/img/min-logo.png" alt="" width="40" height="30"
+                        class="d-inline-block align-text-top">
+                </a>
+            </div>
+        </section>
+
+
+        <nav class="nav">
+            <div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link nav__inicio active">
+                        <i class='bx bx-grid-alt nav__icon'></i>
+                        <span class="nav__name">Inicio</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-wallet'></i>
+                        <span class="nav__name">Comprar/Vender</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-user'></i>
+                        <span class="nav__name">Mi cuenta</span>
+                    </a>
+
+                    <a href="#" class="nav__link">
+                        <i class='bx bx-log-out'></i>
+                        <span class="nav__name">Cerrar sesión</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--===== CARDS =====-->
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <!--==card 1==-->
+                <div class="col-md-4 col-sm-12">
+                    <div class="coin_card">
+                        <div class="top-card">
+                            <img src="assets/img/btc.png" alt="name" class="rounded logo-card">
+                            <h7 class="name">BTC</h7>
+                            <div class=" balance">
+                                <span class="text1 d-block">ARG $9.452.037,51</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn-primary action_button">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary action_button">Vender</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="coin_card">
+                        <div class="top-card">
+                            <img src="assets/img/eth.png" alt="name" class="rounded logo-card">
+                            <h7 class="name">ETH</h7>
+                            <div class=" balance">
+                                <span class="text1 d-block">ARG $491.321,78</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn-primary action_button">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary action_button">Vender</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="coin_card">
+                        <div class="top-card">
+                            <img src="assets/img/ltc.png" alt="name" class="rounded logo-card">
+                            <h7 class="name">LTC</h7>
+                            <div class=" balance">
+                                <span class="text1 d-block">ARG $44.732,75</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn-primary action_button">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary action_button">Vender</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="coin_card">
+                        <div class="top-card">
+                            <img src="assets/img/polkadot.png" alt="name" class="rounded logo-card">
+                            <h7 class="name">DOT</h7>
+                            <div class=" balance">
+                                <span class="text1 d-block">ARG $5.724,14</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn-primary action_button">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary action_button">Vender</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="coin_card">
+                        <div class="top-card">
+                            <img src="assets/img/tether-usdt-logo.png" alt="name" class="rounded logo-card">
+                            <h7 class="name">USDT</h7>
+                            <div class=" balance">
+                                <span class="text1 d-block">ARG $160,12</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn-primary action_button">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary action_button">Vender</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <div class="coin_card">
+                        <div class="top-card">
+                            <img src="assets/img/uni.png" alt="name" class="rounded logo-card">
+                            <h7 class="name">UNI</h7>
+                            <div class=" balance">
+                                <span class="text1 d-block">ARG $6240,43</span>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="btn btn-primary action_button">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary action_button">Vender</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="info">
+            <button type="button" class="btn btn-primary see-all">Ver todas</button>
+        </div>
+
+        <div class="info">
+            <div class="info-container">
+                <div class="info-logo">
+                    <img src="assets/img/identificacion.png" alt="" width="50" height="50" />
+                </div>
+                <div class="info-description">
+                    <p>Verificación de identificacion incompleta</p>
+                </div>
+                <div class="info-action">
+                    <a href="#">Completar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="info-container limits">
+                <div class="info-logo">
+                    <img src="assets/img/coins.png" alt="" width="50" height="50" />
+                </div>
+                <div class="info-description">
+                    <p class="info-title">Limites</p>
+                    <p class="info-sub">Limite anual restante 0/0</p>
+                    <p class="info-sub">Limite diario restante 0/0</p>
+                </div>
+                <div class="info-action ">
+                    <a href="#">Solicitar aumento</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="info-container activities-container">
+                <div class="activities-title">
+                    <p class="info-title">Actividad</p>
+                </div>
+
+
+                <div class="activities">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>20/3/2020</td>
+                                <td>Buy BTC</td>
+                                <td>ARS 40.000.00</td>
+                                <td class="text-right">BTC 0.00523</td>
+                            </tr>
+                            <tr>
+                                <td>20/3/2020</td>
+                                <td>Buy ETH</td>
+                                <td>ARS 40.000.00</td>
+                                <td class="text-right">ETH 4</td>
+                            </tr>
+                            <tr>
+                                <td>20/3/2020</td>
+                                <td>Buy LTC</td>
+                                <td>ARS 40.000.00</td>
+                                <td class="text-right">LTC 6</td>
+                            </tr>
+                            <tr>
+                                <td>20/3/2020</td>
+                                <td>Buy LTC</td>
+                                <td>ARS 40.000.00</td>
+                                <td class="text-right">LTC 6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
